@@ -12,11 +12,7 @@ const AddRestaurant = ({onAdd}) => {
             alert('Please add Restaurant')
             return
         }
-
-        console.log('meow')
-
         onAdd({text})
-        console.log('meow')
         setText('')
     }
   return (
